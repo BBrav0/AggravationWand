@@ -1,0 +1,7 @@
+name: AggravationWand
+version: '1.0.0'
+main: com.benbravo.aggravationwand.AggravationWand
+api-version: '1.21'
+description: Wand that will make any mob attack any entity
+authors:
+  - benbravo
