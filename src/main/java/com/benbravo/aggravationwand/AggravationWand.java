@@ -6,6 +6,7 @@ public class AggravationWand extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        getServer().getPluginManager().registerEvents(new WandListener(this), this);
         getLogger().info("AggravationWand has been enabled!");
     }
 
@@ -13,4 +14,5 @@ public class AggravationWand extends JavaPlugin {
     public void onDisable() {
         getLogger().info("AggravationWand has been disabled!");
     }
+
 }

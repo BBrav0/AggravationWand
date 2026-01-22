@@ -1,5 +1,7 @@
 plugins {
     java
+    eclipse
+    idea
 }
 
 group = "com.benbravo"
